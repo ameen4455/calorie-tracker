@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "CaloryTracker"
 include(":app")
- 
+include(":core")
