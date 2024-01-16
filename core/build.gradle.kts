@@ -6,5 +6,5 @@ plugins {
 apply(from = "$rootDir/base-module.gradle")
 
 android {
-    namespace = "com.plcoding.core"
+    namespace = "dev.ameen4455.core"
 }
