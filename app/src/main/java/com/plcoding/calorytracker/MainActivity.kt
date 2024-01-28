@@ -17,6 +17,8 @@ import dagger.hilt.android.AndroidEntryPoint
 import dev.ameen4455.core.navigation.Route
 import dev.ameen4455.onboarding_presentation.age.AgeScreen
 import dev.ameen4455.onboarding_presentation.gender.GenderScreen
+import dev.ameen4455.onboarding_presentation.height.HeightScreen
+import dev.ameen4455.onboarding_presentation.weight.WeightScreen
 import dev.ameen4455.onboarding_presentation.welcome.WelcomeScreen
 
 @AndroidEntryPoint
@@ -49,10 +51,11 @@ class MainActivity : ComponentActivity() {
                             GenderScreen(onNavigate = navController::navigate)
                         }
                         composable(Route.HEIGHT) {
-
+                            HeightScreen(scaffoldState = scaffoldState, onNavigate = navController::navigate)
                         }
                         composable(Route.WEIGHT) {
-
+                            WeightScreen(scaffoldState = scaffoldState,
+                                onNavigate = navController::navigate)
                         }
                         composable(Route.NUTRIENT_GOAL) {
 
