@@ -20,6 +20,7 @@ import dev.ameen4455.onboarding_presentation.age.AgeScreen
 import dev.ameen4455.onboarding_presentation.gender.GenderScreen
 import dev.ameen4455.onboarding_presentation.goal.GoalScreen
 import dev.ameen4455.onboarding_presentation.height.HeightScreen
+import dev.ameen4455.onboarding_presentation.nutrient_goal.NutrientGoalScreen
 import dev.ameen4455.onboarding_presentation.weight.WeightScreen
 import dev.ameen4455.onboarding_presentation.welcome.WelcomeScreen
 
@@ -60,6 +61,10 @@ class MainActivity : ComponentActivity() {
                                 onNavigate = navController::navigate)
                         }
                         composable(Route.NUTRIENT_GOAL) {
+                            NutrientGoalScreen(
+                                scaffoldState = scaffoldState,
+                                onNavigate = navController::navigate
+                            )
                         }
                         composable(Route.ACTIVITY) {
                             ActivityScreen(onNavigate = navController::navigate)
