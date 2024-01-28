@@ -1,4 +1,4 @@
-package com.plcoding.calorytracker
+package dev.ameen4455.calorietracker
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

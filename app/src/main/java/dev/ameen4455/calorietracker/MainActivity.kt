@@ -1,4 +1,4 @@
-package com.plcoding.calorytracker
+package dev.ameen4455.calorietracker
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -11,8 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.plcoding.calorytracker.navigation.navigate
-import com.plcoding.calorytracker.ui.theme.CaloryTrackerTheme
+import dev.ameen4455.calorietracker.navigation.navigate
+import dev.ameen4455.calorietracker.ui.theme.CaloryTrackerTheme
 import dagger.hilt.android.AndroidEntryPoint
 import dev.ameen4455.core.navigation.Route
 import dev.ameen4455.onboarding_presentation.activity.ActivityScreen

@@ -1,4 +1,4 @@
-package com.plcoding.calorytracker.ui.theme
+package dev.ameen4455.calorietracker.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -7,7 +7,7 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.Color
-import com.plcoding.calorytrackerprep.ui.theme.Typography
+import com.ameen4455.calorytrackerprep.ui.theme.Typography
 import dev.ameen4455.core_ui.Dimensions
 import dev.ameen4455.core_ui.LocalSpacing
 

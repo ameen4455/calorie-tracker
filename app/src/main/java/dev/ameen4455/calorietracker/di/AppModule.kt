@@ -1,4 +1,4 @@
-package com.plcoding.calorytracker.di
+package dev.ameen4455.calorietracker.di
 
 import android.app.Application
 import android.content.Context.MODE_PRIVATE
