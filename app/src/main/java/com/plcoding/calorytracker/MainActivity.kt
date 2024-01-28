@@ -15,8 +15,10 @@ import com.plcoding.calorytracker.navigation.navigate
 import com.plcoding.calorytracker.ui.theme.CaloryTrackerTheme
 import dagger.hilt.android.AndroidEntryPoint
 import dev.ameen4455.core.navigation.Route
+import dev.ameen4455.onboarding_presentation.activity.ActivityScreen
 import dev.ameen4455.onboarding_presentation.age.AgeScreen
 import dev.ameen4455.onboarding_presentation.gender.GenderScreen
+import dev.ameen4455.onboarding_presentation.goal.GoalScreen
 import dev.ameen4455.onboarding_presentation.height.HeightScreen
 import dev.ameen4455.onboarding_presentation.weight.WeightScreen
 import dev.ameen4455.onboarding_presentation.welcome.WelcomeScreen
@@ -58,13 +60,12 @@ class MainActivity : ComponentActivity() {
                                 onNavigate = navController::navigate)
                         }
                         composable(Route.NUTRIENT_GOAL) {
-
                         }
                         composable(Route.ACTIVITY) {
-
+                            ActivityScreen(onNavigate = navController::navigate)
                         }
                         composable(Route.GOAL) {
-
+                            GoalScreen(onNavigate = navController::navigate)
                         }
 
                         composable(Route.TRACKER_OVERVIEW) {
