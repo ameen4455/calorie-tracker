@@ -1,4 +1,4 @@
-package dev.ameen4455.calorietracker.ui.theme
+package dev.ameen4455.core_ui
 
 import androidx.compose.ui.graphics.Color
 
