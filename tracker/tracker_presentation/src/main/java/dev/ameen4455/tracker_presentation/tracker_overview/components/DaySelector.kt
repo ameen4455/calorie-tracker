@@ -1,4 +1,4 @@
-package dev.ameen4455.tracker_presentation.tracker_overview
+package dev.ameen4455.tracker_presentation.tracker_overview.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
